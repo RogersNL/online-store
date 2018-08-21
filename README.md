@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+<script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBmxIFO2XafBEF6X6f9OcnFQP1L-0rO764",
+    authDomain: "online-store-f49fc.firebaseapp.com",
+    databaseURL: "https://online-store-f49fc.firebaseio.com",
+    projectId: "online-store-f49fc",
+    storageBucket: "online-store-f49fc.appspot.com",
+    messagingSenderId: "266819262632"
+  };
+  firebase.initializeApp(config);
+</script>
