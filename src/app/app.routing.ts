@@ -7,9 +7,9 @@ import { AlbumDetailComponent }   from './album-detail/album-detail.component';
 
 const appRoutes: Routes = [
   {
-     path: '',
-     component: WelcomeComponent
-   },
+    path: '',
+    component: WelcomeComponent
+  },
   {
     path: 'about',
     component: AboutComponent
