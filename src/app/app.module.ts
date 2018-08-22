@@ -13,7 +13,8 @@ import { AlbumDetailComponent } from './album-detail/album-detail.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AdminComponent } from './admin/admin.component'
+import { AdminComponent } from './admin/admin.component';
+import { EditAlbumComponent } from './edit-album/edit-album.component'
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,11 +29,12 @@ export const firebaseConfig = {
     AboutComponent,
     MarketplaceComponent,
     AlbumDetailComponent,
-    AdminComponent
+    AdminComponent,
+    EditAlbumComponent
   ],
   imports: [
     BrowserModule,
-    // FormsModule,
+    FormsModule,
     // HttpModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
